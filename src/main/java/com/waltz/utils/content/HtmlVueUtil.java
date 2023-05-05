@@ -8,7 +8,7 @@ import java.util.*;
  * @description: vue、html内容获取工具
  * @createDate: 2023/4/26 11:01
  **/
-public class HtmlVueUtils {
+public class HtmlVueUtil {
     /**
      * 获取content中，指定标签的开始位置与结束位置
      * @param content vue、html的内容
