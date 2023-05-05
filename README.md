@@ -9,6 +9,7 @@
 ### content
 #### CompressUtils
 **String compressWithGzip(String originContent)** 使用gzip对文本进行压缩
+
 **String unCompressWithGzip(String compressedContent)** 对使用gzip压缩的文本进行解压缩
 #### HtmlVueUtils
 用于对Html、Vue格式内容的处理
@@ -20,6 +21,7 @@
 ### date
 #### DateUtils
 **Date localDateToDate(LocalDate localDate):** LocalDate转Date
+
 **Date strToYmd(String dateTimeStr):** 时间字符串转指定日期格式：yyyy-MM-dd
 
 
@@ -28,5 +30,7 @@
 EasyExcel工具
 
 **List<T> getList(MultipartFile file, Class<T> clazz):** 根据excel，获取对应的List<T>
+
 **List<T> getList(MultipartFile file, Class<T> clazz, Integer sheetNo, Integer headRowNumber):** 根据excel，获取对应的List<T>
+
 **void setInitValueToList(Object filedValue, Integer rowIndex, Integer columnIndex, List<T> data):** 设置合并单元格的值
