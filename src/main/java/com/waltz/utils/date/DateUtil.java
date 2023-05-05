@@ -14,7 +14,7 @@ import java.util.Date;
  * @description: 日期工具类
  * @createDate: 2023/4/26 17:39
  **/
-public class DateUtils {
+public class DateUtil {
     /**
      * LocalDate转Date
      * @param localDate LocalDate日期格式
