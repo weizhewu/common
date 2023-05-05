@@ -26,7 +26,7 @@
 
 
 ### excel
-#### ExcelExcel
+#### ExcelUtil
 EasyExcel工具
 
 **List<T> getList(MultipartFile file, Class<T> clazz):** 根据excel，获取对应的List<T>
