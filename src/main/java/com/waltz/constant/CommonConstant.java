@@ -1,5 +1,8 @@
 package com.waltz.constant;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author MrWei
  * @version 1.0.0
@@ -23,5 +26,9 @@ public interface CommonConstant {
 
     interface File{
         public static final int BUFFER_SIZE = 1024;
+
+        public static final String IMG = "img";
+
+        public static final List<String> IMG_TYPE_LIST = Arrays.asList("jpg","png","jpeg");
     }
 }
